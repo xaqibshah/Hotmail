@@ -1,0 +1,39 @@
+*{
+    margin: auto;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#content{
+    width: 1366px;
+    height: 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header, aside, main, footer{
+    display: block;
+}
+
+header{
+    width: 1366px;
+    height: 50px;
+    background-color: #8C0095;
+    position: relative;
+
+}
+
+aside {
+    width: 200px;
+    height: 768px;
+    float: left;
+    background-color: #F3F3F3;
+}
+
+#search {
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 170px;
+    height: 30px;
+}
